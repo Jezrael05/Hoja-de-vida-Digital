@@ -6,16 +6,68 @@
       <title>Hoja de Vida Digital</title>
     </head>
     <body>
-      <header>
-        <img src="img/Logotipo.svg" alt="Logotipo" title="Curriculum Vitae" width="250px" height="120px"><br/>
-        <h1>Curriculum Vitae</h1>
-      </header>
-      <h2>Luis Jezrael Hoyos Campa</h2>
-      <h3>05 de Mayo de 1976</h3>
-      <h2>Informacion Personal</h2>
-      <a href="index.html">Inicio</a>
-      <a href="educacion.html">Experiencia</a>
-        <h2>Educacion</h2>
+        <header>
+          <img src="img/Logotipo.svg" alt="Logotipo" title="Curriculum Vitae" width="250px" height="120px"><br/>
+          <h1>Curriculum Vitae</h1>
+        </header>
+        <h2>Luis Jezrael Hoyos Campa</h2>
+        <h3>05 de Mayo de 1976</h3>
+        <!--<h2>Informacion Personal</h2>-->
+        <a href="index.html">Inicio</a>
+        <a href="experiencia.html">Experiencia</a>
+          <h2>Educacion</h2>
+      
+        <table border="5" cellpadding="10" cellspacing="8">
+            <thead>
+                <tr>
+                  <th>Año</th>
+                  <th>Institucion</th>
+                  <th>Lugar</th>
+                  <th>Culmino?</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>1981-1987</td>
+                  <td>Colegio Loreto</td>
+                  <td>Tecate, Baja California Norte</td>
+                  <td>SI</td>
+                </tr>
+                <tr>
+                  <td>1987-1990</td>
+                  <td>Esc. Sec. Fed. #1 Francisco I. Madero</td>
+                  <td>Tecate, Baja California Norte</td>
+                  <td>SI</td>
+                </tr>
+                <tr>
+                  <td>1990-1993</td>
+                  <td>Colegio de Bachilleres</td>
+                  <td>Tijuana, Baja California Norte</td>
+                  <td>SI</td>
+                </tr>
+                <tr>
+                  <td>2018-2019</td>
+                  <td>Next University</td>
+                  <td>Online</td>
+                  <td>SI</td>
+                </tr>
+              </tbody>
+          </table>
+          <br/>
+          <h2>Agregar Estudios</h2>
+          <form autocomplete="on" name="Agregar Estudios">
+            <label for="number">Año: </label>
+            <input type="number" min="1930" max="3000" required>
+          <p>Institucion</p>
+          <textarea name="Comentarios" rows="1" cols="50" required></textarea>
+          <p>Lugar</p>
+          <textarea name="Comentarios" rows="3" cols="90"></textarea>
+          <br/>
+          <br/>
+          <input type="submit">
 
   </body>
+  <footer>
+    <p>Correo electronico: informatica_85@hotmail.com  |  Telefono: 01 (52) 6651442108  |  Direccion: Tamaulipas #401-35P, Residensial San Jorge, Tecate Baja California Norte  |  Facebook y Messenger: jez_0576@hotmail.com, WhatsApp: 01 (52) 6651442108</p>
+  </footer>
 </html>
